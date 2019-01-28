@@ -1,9 +1,6 @@
 package lab4;
 
 public class ex3 {
-    public static void int A (int a,int b){
-        int uum = A(5,5)
-    }
     public static int A (int a, int b){
         return a * b;
     }
