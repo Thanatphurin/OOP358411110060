@@ -1,0 +1,72 @@
+Index: src/lab6/ex3.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/lab6/ex3.java	(date 1548654098155)
++++ src/lab6/ex3.java	(date 1548654098155)
+@@ -0,0 +1,29 @@
++package lab6;
++
++        import com.sun.org.apache.xpath.internal.operations.String;
++
++        import java.util.StringTokenizer;
++
++public class ex3 {
++    public static  void  main(String[] args){
++        String myMsg = " I am working at RUTS 2018";
++        StringBuffer strBuf = new StringBuffer(myMsg);
++
++        System.out.println(strBuf);
++        System.out.println(strBuf.replace());
++        strBuf.append("Happ New Year, 2019");
++        System.out.println(strBuf);
++
++        //SttingTokeizer
++        StringTokenizer token = new StringTokenizer(strBuf.toString());
++        System.out.println(token);
++        System.out.println(token.countTokens());
++
++        while (token.hasMoreElements()){
++            System.out.println();(token.nextToken());
++        }
++
++
++    }//main
++
++}//class
+Index: src/lab6/ex2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/lab6/ex2.java	(date 1545639319292)
++++ src/lab6/ex2.java	(date 1545639319292)
+@@ -0,0 +1,27 @@
++package lab6;
++
++public class ex2 {
++    public static  void main(String[] args)
++        //compare String
++    String m = "Hello";
++    String n = "Hello";
++    // ==
++    if (m==n)
++        System.out.println(true);
++    else
++        System.out.ptintln(galse)
++    //equal () metod
++    if(m.equals(n))
++            System.out.println(true);
++    else
++
++            System.out.ptintln(galse)
++     //compareTo(n)
++    if (m.compateTo(n))==0)
++            System.out.println(true);
++     else if(m.compareTo(n)>0)
++      System.oup.println("m more than n");
++     else
++         system.out.println("m less than n")
++}
++
